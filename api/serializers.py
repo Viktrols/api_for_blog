@@ -41,7 +41,8 @@ class FollowSerializer(serializers.ModelSerializer):
     def validate_following(self, following):
         if self.context.get('request').method == 'POST':
             if self.context.get('request').user == following:
-                raise serializers.ValidationError('Ну ты и нарцисс!')
+                raise serializers.ValidationError(
+                    'Нельзя подписаться на самого себя!')
         return following
 
     class Meta:
