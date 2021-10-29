@@ -1,4 +1,4 @@
-h1>API для блога</h1>
+<h1>API для блога</h1>
 <h2>Краткое описание</h2>
 <li>Аутентификация по JWT-токену</li>
 <li>Работа со спискомвсех публикаций блога и отдельными постами по id</li>
@@ -9,7 +9,7 @@ h1>API для блога</h1>
 ## Установка проекта
 
 ### Клонируйте данный репозиторий
-```git clone https://github.com/Viktrols/blog-yatube-yandex-praktikum.git```
+```git clone https://github.com/Viktrols/api_for_blog```
 ### Создайте и активируйте виртуальное окружение
 ```
 python -m venv venv<br>
